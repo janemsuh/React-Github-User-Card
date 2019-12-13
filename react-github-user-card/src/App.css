@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.user-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.user-card .img-container img {
+  padding-top: 20px;
+  width: 300px;
+}
+
+.profile-data {
+  padding-left: 10px
+}
+
+.follower-list {
+  padding-left: 40px;
+  font-style: italic;
+}
